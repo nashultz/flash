@@ -12,6 +12,7 @@ Then run `composer update`.
 
 Now create a partial blade file (maybe `resources/views/_flash.blade.php`?), and insert the following:
 
+```html
 @if(session()->has('flash_message'))
     <script type="text/javascript">
         swal({
@@ -23,6 +24,7 @@ Now create a partial blade file (maybe `resources/views/_flash.blade.php`?), and
         });
     </script>
 @endif
+```
 
 Your all set!
 

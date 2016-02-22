@@ -2,6 +2,9 @@
 
 ## Installation
 
+> **Note**: This installation assumes you've already included [Sweet Alert](http://t4t5.github.io/sweetalert/)
+> in your html layout.
+
 Require `flash` in your `composer.json` file:
 
 ```json

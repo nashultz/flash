@@ -19,7 +19,6 @@ Now create a partial blade file (maybe `resources/views/_flash.blade.php`?), and
             title: "{!! session('flash_message.title') !!}",
             text: "{!! session('flash_message.message') !!}",
             type: "{!! session('flash_message.level') !!}",
-            animation:false,
             @if(session('flash_message.timer')) timer: "{!! session('flash_message.timer') !!}" @endif
         });
     </script>

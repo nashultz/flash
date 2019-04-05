@@ -37,7 +37,7 @@ class Flash
     {
         $timer = $this->timer;
 
-        session()->flash($key, compact('title', 'message', 'level', 'info', 'timer'));
+        session()->flash($key, compact('title', 'message', 'level', 'timer'));
     }
 
     /**

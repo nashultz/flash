@@ -8,7 +8,7 @@
 Require `flash` in your `composer.json` file:
 
 ```json
-"stevebauman/flash": "1.0.*",
+"nashultz/flash": "1.0.*",
 ```
 
 Then run `composer update`.

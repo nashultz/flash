@@ -1,6 +1,6 @@
 <?php
 
-namespace Stevebauman\Flash;
+namespace Nashultz\Flash;
 
 class Flash
 {

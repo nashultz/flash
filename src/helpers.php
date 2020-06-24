@@ -1,6 +1,6 @@
 <?php
 
-use Stevebauman\Flash\Flash;
+use Nashultz\Flash\Flash;
 
 /**
  * Generates a session flash message.
